@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+    margin-bottom: 64px;
+    .w-75 {
+        width: 75px;
+    }
+
+    tr.mat-row {
+        height: 56px !important;
+    }
+}
+
+mat-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none !important;
+}

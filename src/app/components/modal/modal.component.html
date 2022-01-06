@@ -1,0 +1,11 @@
+<!-- Modal content section -->
+<h1 mat-dialog-title>Public API Entries Detail</h1>
+<div mat-dialog-content>
+    <mat-list *ngFor="let key of getObjectKey(data)">
+        <mat-list-item>{{ key }} : {{ data[key] ? data[key] : '--' }}</mat-list-item>
+        <mat-divider></mat-divider>
+    </mat-list>
+</div>
+<div mat-dialog-actions align="center">
+    <button mat-button [mat-dialog-close]="true" mat-raised-button color="primary">Close</button>
+</div>
