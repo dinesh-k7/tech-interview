@@ -2,26 +2,29 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Angular Project, which contains following screen
 
-## Code scaffolding
+i) Home screen with a button named "Public API"
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ii) Button click on Home screen will redirect to new screen, which will display the API details in table format with sorting option
 
-## Build
+iii) Modal screen, Table in previous screen will have an option called "View" for each row to display the API detail in list view  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
+```bash
+$ npm install
+```
 
-## Running unit tests
+## Running the app
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+$ ng serve
+```
 
-## Running end-to-end tests
+## Linting
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+$ ng lint
+```
